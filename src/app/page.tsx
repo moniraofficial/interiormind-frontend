@@ -6,6 +6,7 @@ import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Newsletter from "./components/Newsletter";
+import Popular from "./components/Popular";
 
 export default function Home() {
   return (
@@ -13,7 +14,10 @@ export default function Home() {
       {/* 👈 ২. এখানে আমাদের Hero সেকশনটি বসিয়ে দিলাম */}
   <Hero />
   <TrustedBrands />
+
+    <Popular />
   <Features />
+
   <Stats />
   <Testimonials />
   <FAQ />
