@@ -31,7 +31,7 @@ const Popular = async () => {
                 
 
 <Link href={`/categories/${item._id}`}>
-  <button className="w-full bg-blue-600 text-white py-2 rounded-lg">
+  <button className="w-full bg-emerald-900 text-white py-2 rounded-lg">
     View Details
   </button>
 </Link>

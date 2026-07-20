@@ -13,7 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50">
       {/* 👈 ২. এখানে আমাদের Hero সেকশনটি বসিয়ে দিলাম */}
   <Hero />
-  <TrustedBrands />
+  {/* <TrustedBrands /> */}
 
     <Popular />
   <Features />
