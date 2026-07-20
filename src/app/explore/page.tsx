@@ -14,7 +14,7 @@ export default function ExplorePage() {
   const itemsPerPage = 8;
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/categories")
+    fetch("https://interiormind-backend.vercel.app/api/categories")
       .then((res) => res.json())
       .then((res) => {
         setData(Array.isArray(res) ? res : []);

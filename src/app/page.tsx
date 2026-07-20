@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
-import TrustedBrands from "./components/TrustedBrands";
+// import TrustedBrands from "./components/TrustedBrands";
 import Features from "./components/Features";
 import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
