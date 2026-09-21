@@ -1,7 +1,7 @@
 import { Briefcase, Users, Zap, Star } from 'lucide-react';
 
 const stats = [
-  { label: "Projects Completed", value: "25K+", icon: Briefcase, color: "text-emerald-800", bg: "bg-emerald-50" },
+  { label: "Projects Completed", value: "25K+", icon: Briefcase, color: "text-emerald-800", bg: "bg-amber-50" },
   { label: "Happy Users", value: "18K+", icon: Users, color: "text-amber-600", bg: "bg-amber-50" },
   { label: "AI Designs Generated", value: "120K+", icon: Zap, color: "text-emerald-800", bg: "bg-orange-50" },
   { label: "Average Rating", value: "4.9/5", icon: Star, color: "text-orange-600", bg: "bg-orange-50" },
